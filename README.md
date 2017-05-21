@@ -25,29 +25,29 @@ Instruction order to work with encrypted databases
 
 ##### Encrypting a new db
 
-- open         
-- key          
-- use as usual
+1. open         
+2. key          
+3. use as usual
 
 ##### Opening an encrypted DB
 
-- open          
-- key           
-- use as usual  
+1. open          
+2. key           
+3. use as usual  
 
 ##### Changing the key
 
-- open          
-- key           
-- rekey        
-- use as usual  
+1. open          
+2. key           
+3. rekey        
+4. use as usual  
 
 ##### Decrypting
 
-- open             
-- key              
-- rekey with null   
-- use as usual
+1. open             
+2. key              
+3. rekey with null   
+4. use as usual
 
 Checking if key was correct
 ---------------------------

@@ -4,3 +4,4 @@ pwd
 git submodule foreach git pull origin master
 
 cp -R wxsqlite3/sqlite3/secure/* .
+rm -r wxsqlite3/

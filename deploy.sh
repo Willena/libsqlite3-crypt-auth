@@ -1,5 +1,11 @@
 #!/bin/sh
 
+if [ "$TRAVIS_EVENT_TYPE" = "cron" ]
+then
+        exit 0
+fi
+
+
 echo -n "Collecting current version"
 SQLITE_VERSION_LINE=$(./src/sqliteshell -version)
 set $SQLITE_VERSION_LINE

@@ -712,4 +712,3 @@ int sqlite3_shathree_init(
   }
   return rc;
 }
-

@@ -1,4 +1,5 @@
 #!/bin/sh
+chmod +x build.sh
 cd ${0%/*}
 pwd
 rm -rf wxsqlite3/

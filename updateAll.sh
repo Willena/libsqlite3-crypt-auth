@@ -22,10 +22,10 @@ then
 #	echo "Ok not 0"
 	git config --global user.name "Villena Guillaume"
 	git config --global user.email  guiguivil@gmail.com
-	
-	git config credential.helper "store --file=.git/credentials"
-	echo "https://${GH_TOKEN}:@github.com" > .git/credentials
-	
+
+#	git config credential.helper "store --file=.git/credentials"
+#	echo "https://${GH_TOKEN}:@github.com" > .git/credentials
+
 	git commit -a -m "Upgrade to the lastest SQLite version"
 	git push
 fi

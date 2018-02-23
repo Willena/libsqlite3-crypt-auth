@@ -1,6 +1,22 @@
 LibSQLite3-crypt-auth
 ======
 
+
+
+
+
+
+WARNING ! This repo is not used anymore and will not be updated anymore !
+Use the new one : https://github.com/Willena/libsqlite3-wx-see
+
+
+
+
+
+
+
+
+
 This repository is an extract of the wxsqlite repository (https://github.com/utelle/wxsqlite3.git).
 This repository only contain the code for building sqlite3 with encryption and userauth and some other things.
 
